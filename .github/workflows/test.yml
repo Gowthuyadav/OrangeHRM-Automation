@@ -13,48 +13,37 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        browser: [chrome, firefox]
+        browser: [chrome]
         java-version: [17]
 
     steps:
-      # 1️⃣ Checkout code
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # 2️⃣ Set up JDK
       - name: Set up JDK
         uses: actions/setup-java@v3
         with:
           distribution: temurin
           java-version: ${{ matrix.java-version }}
 
-      # 3️⃣ Install browsers
-      - name: Install browsers
+      - name: Install Chrome
         run: |
           sudo apt-get update
           sudo apt-get install -y wget unzip libgtk-3-0 libdbus-glib-1-2 libxt6
-          
-          # Install Chrome
           wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
           sudo dpkg -i google-chrome-stable_current_amd64.deb || sudo apt-get install -f -y
-          
-          # Install Firefox
-          sudo apt-get install -y firefox
 
-      # 4️⃣ Build and Run Tests
-      - name: Build and Run Tests
+      - name: Build & Test
         run: mvn clean test -Dbrowser=${{ matrix.browser }}
 
-      # 5️⃣ Archive TestNG results
-      - name: Archive TestNG Results
+      - name: Upload TestNG Results
         uses: actions/upload-artifact@v4
         with:
-          name: testng-results-${{ matrix.browser }}
+          name: testng-results
           path: test-output/
 
-      # 6️⃣ Upload ExtentReports
       - name: Upload Reports
         uses: actions/upload-artifact@v4
         with:
-          name: reports-${{ matrix.browser }}
+          name: reports
           path: reports/

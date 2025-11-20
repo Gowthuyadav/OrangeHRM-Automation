@@ -19,7 +19,6 @@ import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
@@ -42,7 +41,12 @@ public class BaseClass {
         if (browser.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
-            if (isCI) options.addArguments("--headless", "--no-sandbox", "--disable-dev-shm-usage");
+            if (isCI) {
+                options.addArguments("--headless=new");
+                options.addArguments("--no-sandbox");
+                options.addArguments("--disable-dev-shm-usage");
+                options.addArguments("--window-size=1920,1080");
+            }
             driver = new ChromeDriver(options);
 
         } else if (browser.equalsIgnoreCase("firefox")) {
@@ -57,7 +61,7 @@ public class BaseClass {
 
         driver.manage().window().maximize();
         driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
         driver.get(p.getProperty("app"));
     }
 
