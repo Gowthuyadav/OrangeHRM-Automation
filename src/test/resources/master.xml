@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Master Suite">
+    <test name="All Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.TC001_LoginTest"/>
+            <class name="testcases.TC002_AddEmployee"/>
+            <class name="testcases.TC003_EditEmployeeTest"/>
+            <class name="testcases.TC004_SearchEmployeeTest"/>
+            <class name="testcases.TC005_DeleteEmployeeTest"/>
+            <class name="testcases.APITestOrangeHRM"/>
+        </classes>
+    </test>
+</suite>
