@@ -1,0 +1,45 @@
+19:04:14.729 [main] INFO  testcases.TC005_DeleteEmployeeTest - Screenshot saved at: C:\Automation\Orangehrm\AutomationFramework/screenshots/DeleteEmployeeFailure_2025.11.19.19.04.14.png
+19:37:30.907 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:37:52.747 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:38:11.166 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:38:32.536 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:38:51.066 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:39:09.350 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:39:31.279 [main] INFO  testcases.TC002_AddEmployee - ***************Starting TC002 AddEmployeeTest************
+19:39:52.611 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Starting TC003 EditEmployeeTest ************
+19:40:13.538 [main] INFO  testcases.TC004_SearchEmployeeTest - *************** Starting TC004 SearchEmployeeTest ************
+19:40:35.325 [main] INFO  testcases.TC005_DeleteEmployeeTest - *************** Starting TC005 DeleteEmployeeTest ************
+19:51:42.489 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:52:02.785 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:52:22.988 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:52:41.810 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:53:00.596 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:53:20.375 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+19:53:40.598 [main] INFO  testcases.TC002_AddEmployee - ***************Starting TC002 AddEmployeeTest************
+19:53:58.774 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Starting TC003 EditEmployeeTest ************
+19:54:20.620 [main] INFO  testcases.TC004_SearchEmployeeTest - *************** Starting TC004 SearchEmployeeTest ************
+19:54:44.292 [main] INFO  testcases.TC005_DeleteEmployeeTest - *************** Starting TC005 DeleteEmployeeTest ************
+20:04:08.405 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:04:32.538 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:04:51.759 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:05:10.535 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:05:30.247 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:05:53.938 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:06:15.914 [main] INFO  testcases.TC002_AddEmployee - ***************Starting TC002 AddEmployeeTest************
+20:06:36.194 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Starting TC003 EditEmployeeTest ************
+20:06:57.975 [main] INFO  testcases.TC004_SearchEmployeeTest - *************** Starting TC004 SearchEmployeeTest ************
+20:09:11.785 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:09:31.504 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:09:50.264 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:10:09.627 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:10:29.895 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:10:48.201 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:29:15.780 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:29:38.044 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:30:02.661 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:30:26.152 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:30:47.834 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:31:10.839 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:35:41.378 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+20:35:43.822 [main] INFO  testcases.TC001_LoginTest - Valid login successful for user: Admin
+20:35:46.536 [main] INFO  testcases.TC001_LoginTest - Logout successful, returned to login page

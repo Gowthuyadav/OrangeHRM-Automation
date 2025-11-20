@@ -1,0 +1,44 @@
+20:56:16.860 [main] INFO  testcases.TC002_AddEmployee - Screenshot saved at: C:\Automation\Orangehrm\AutomationFramework/screenshots/AddEmployeeFailure_2025.11.19.20.56.16.png
+21:34:32.843 [main] INFO  testcases.TC002_AddEmployee - ***************Starting TC002 AddEmployeeTest************
+21:34:45.853 [main] INFO  testcases.TC002_AddEmployee - Employee added successfully: xxyyzz TestUser
+21:34:45.853 [main] INFO  testcases.TC002_AddEmployee - ***************Finishing TC002 AddEmployeeTest************
+21:35:44.909 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Starting TC003 EditEmployeeTest ************
+21:35:46.024 [main] ERROR testcases.TC003_EditEmployeeTest - Exception in Edit Employee Test: 
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.support.ui.WebDriverWait.until(java.util.function.Function)" because "this.wait" is null
+	at pages.EditEmployeePage.clickPimMenu(EditEmployeePage.java:47) ~[classes/:?]
+	at testcases.TC003_EditEmployeeTest.editEmployeeTest(TC003_EditEmployeeTest.java:30) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [org.testng_7.11.0.r202503091654.jar:7.11.0]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+21:35:47.977 [main] INFO  testcases.TC003_EditEmployeeTest - Screenshot saved at: C:\Automation\Orangehrm\AutomationFramework/screenshots/EditEmployeeFailure_2025.11.19.21.35.46.png
+21:37:52.667 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Starting TC003 EditEmployeeTest ************
+21:38:00.397 [main] INFO  testcases.TC003_EditEmployeeTest - Employee edited successfully: xx zz
+21:38:00.397 [main] INFO  testcases.TC003_EditEmployeeTest - *************** Finishing TC003 EditEmployeeTest ************
+21:39:15.589 [main] INFO  testcases.TC004_SearchEmployeeTest - *************** Starting TC004 SearchEmployeeTest ************
+21:39:23.027 [main] INFO  testcases.TC004_SearchEmployeeTest - Employee search completed successfully: xxyyzz
+21:40:32.079 [main] INFO  testcases.TC005_DeleteEmployeeTest - *************** Starting TC005 DeleteEmployeeTest ************
+21:40:41.026 [main] INFO  testcases.TC005_DeleteEmployeeTest - Employee deleted successfully: xx
+21:40:41.026 [main] INFO  testcases.TC005_DeleteEmployeeTest - *************** Finishing TC005 DeleteEmployeeTest ************

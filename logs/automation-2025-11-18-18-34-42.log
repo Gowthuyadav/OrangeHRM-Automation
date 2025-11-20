@@ -1,0 +1,40 @@
+17:35:20.018 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+17:35:44.868 [main] INFO  testcases.TC002_AddEmployee - Employee added successfully!
+17:35:45.155 [main] INFO  testcases.TC002_AddEmployee - *************** Finishing TC002 AddEmployeeTest ************
+18:00:36.656 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:00:47.720 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:00:57.834 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:01:07.942 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:01:18.021 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:01:28.099 [main] INFO  testcases.TC001_LoginTest - ***************Starting TC001 LoginTest************
+18:02:48.757 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:05:59.387 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:06:18.283 [main] INFO  testcases.TC002_AddEmployee - Employee added successfully!
+18:06:18.285 [main] INFO  testcases.TC002_AddEmployee - *************** Finishing TC002 AddEmployeeTest ************
+18:18:23.873 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:20:11.102 [main] ERROR testcases.TC002_AddEmployee - Exception in Add Employee Test: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=142.0.7444.163)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1a40b095e34eac76be5ebdc3823f69c4, getCurrentUrl {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.162 (c076baf266c..., userDataDir: C:\Users\cgowt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52413}, goog:processID: 14344, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52413/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1a40b095e34eac76be5ebdc3823f69c4
+18:24:53.366 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:25:30.127 [main] INFO  testcases.TC002_AddEmployee - Employee added successfully!
+18:25:30.127 [main] INFO  testcases.TC002_AddEmployee - *************** Finishing TC002 AddEmployeeTest ************
+18:28:03.379 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:28:38.499 [main] ERROR testcases.TC002_AddEmployee - Exception in Add Employee Test: Expected condition failed: waiting for url to contain "empNumber". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\cgowt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65343}, goog:processID: 4616, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65343/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 895db0830e053ad0894d51b94353fc76
+18:29:52.783 [main] INFO  testcases.TC002_AddEmployee - *************** Starting TC002 AddEmployeeTest ************
+18:30:26.846 [main] ERROR testcases.TC002_AddEmployee - Exception in Add Employee Test: Expected condition failed: waiting for url to contain "empNumber". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/pim/addEmployee" (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.28.0', revision: 'ac342546e9'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 142.0.7444.163, chrome: {chromedriverVersion: 142.0.7444.175 (302067f14a4..., userDataDir: C:\Users\cgowt\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51998}, goog:processID: 5020, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51998/devtoo..., se:cdpVersion: 142.0.7444.163, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b105843e325a5748577b0355cdf2399a

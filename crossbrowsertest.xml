@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Automation Suite" parallel="tests" thread-count="2">
+
+    <listeners>
+        <listener class-name="utils.ExtentReportManager"/>
+    </listeners>
+
+    <!-- ===== LOGIN TEST ===== -->
+    <test name="Login Test - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.TC001_LoginTest"/>
+        </classes>
+    </test>
+
+
+    <!-- ===== ADD EMPLOYEE ===== -->
+    <test name="Add Employee Test - edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testcases.TC002_AddEmployee"/>
+        </classes>
+    </test> 
+
+ 
+    <!-- ===== EDIT EMPLOYEE ===== -->
+     <test name="Edit Employee Test - firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="testcases.TC003_EditEmployeeTest"/>
+        </classes>
+    </test>
+  
+    <!-- ===== SEARCH EMPLOYEE ===== -->
+    <test name="Search Employee Test - Chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="testcases.TC004_SearchEmployeeTest"/>
+        </classes>
+    </test> 
+
+ 
+    <!-- ===== DELETE EMPLOYEE ===== -->
+    <test name="Delete Employee Test - edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="testcases.TC005_DeleteEmployeeTest"/>
+        </classes>
+    </test>
+
+  
+
+</suite>
